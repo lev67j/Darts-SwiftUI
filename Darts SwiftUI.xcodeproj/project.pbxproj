@@ -17,6 +17,11 @@
 		0B9F4E172C3D831300EB0763 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4E162C3D831300EB0763 /* AppConstants.swift */; };
 		0B9F4E192C3D841E00EB0763 /* DartsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4E182C3D841E00EB0763 /* DartsConstants.swift */; };
 		0B9F4E1B2C3D845600EB0763 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4E1A2C3D845600EB0763 /* MockData.swift */; };
+		0B9F4E232C3D852F00EB0763 /* BadGameResultSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F4E1D2C3D852F00EB0763 /* BadGameResultSound.mp3 */; };
+		0B9F4E242C3D852F00EB0763 /* DartsTargetRotation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F4E1E2C3D852F00EB0763 /* DartsTargetRotation.mp3 */; };
+		0B9F4E252C3D852F00EB0763 /* GoodGameResultSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F4E1F2C3D852F00EB0763 /* GoodGameResultSound.mp3 */; };
+		0B9F4E262C3D852F00EB0763 /* TimerEndSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F4E202C3D852F00EB0763 /* TimerEndSound.mp3 */; };
+		0B9F4E272C3D852F00EB0763 /* UserTapSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F4E212C3D852F00EB0763 /* UserTapSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,11 @@
 		0B9F4E162C3D831300EB0763 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		0B9F4E182C3D841E00EB0763 /* DartsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsConstants.swift; sourceTree = "<group>"; };
 		0B9F4E1A2C3D845600EB0763 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		0B9F4E1D2C3D852F00EB0763 /* BadGameResultSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BadGameResultSound.mp3; sourceTree = "<group>"; };
+		0B9F4E1E2C3D852F00EB0763 /* DartsTargetRotation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DartsTargetRotation.mp3; sourceTree = "<group>"; };
+		0B9F4E1F2C3D852F00EB0763 /* GoodGameResultSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GoodGameResultSound.mp3; sourceTree = "<group>"; };
+		0B9F4E202C3D852F00EB0763 /* TimerEndSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TimerEndSound.mp3; sourceTree = "<group>"; };
+		0B9F4E212C3D852F00EB0763 /* UserTapSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = UserTapSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +112,8 @@
 			children = (
 				0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */,
 				0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */,
-				0B9F4E152C3D82F900EB0763 /* Constants */,
+				0B9F4E152C3D82F900EB0763 /* Constant */,
+				0B9F4E1C2C3D850000EB0763 /* Sound */,
 				0B9F4DEE2C3D815700EB0763 /* Assets.xcassets */,
 				0B9F4DF02C3D815700EB0763 /* Preview Content */,
 			);
@@ -134,14 +145,26 @@
 			path = "Darts SwiftUIUITests";
 			sourceTree = "<group>";
 		};
-		0B9F4E152C3D82F900EB0763 /* Constants */ = {
+		0B9F4E152C3D82F900EB0763 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
 				0B9F4E162C3D831300EB0763 /* AppConstants.swift */,
 				0B9F4E182C3D841E00EB0763 /* DartsConstants.swift */,
 				0B9F4E1A2C3D845600EB0763 /* MockData.swift */,
 			);
-			path = Constants;
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		0B9F4E1C2C3D850000EB0763 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				0B9F4E1D2C3D852F00EB0763 /* BadGameResultSound.mp3 */,
+				0B9F4E1F2C3D852F00EB0763 /* GoodGameResultSound.mp3 */,
+				0B9F4E1E2C3D852F00EB0763 /* DartsTargetRotation.mp3 */,
+				0B9F4E202C3D852F00EB0763 /* TimerEndSound.mp3 */,
+				0B9F4E212C3D852F00EB0763 /* UserTapSound.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9F4E262C3D852F00EB0763 /* TimerEndSound.mp3 in Resources */,
 				0B9F4DF22C3D815700EB0763 /* Preview Assets.xcassets in Resources */,
+				0B9F4E232C3D852F00EB0763 /* BadGameResultSound.mp3 in Resources */,
+				0B9F4E252C3D852F00EB0763 /* GoodGameResultSound.mp3 in Resources */,
+				0B9F4E242C3D852F00EB0763 /* DartsTargetRotation.mp3 in Resources */,
+				0B9F4E272C3D852F00EB0763 /* UserTapSound.mp3 in Resources */,
 				0B9F4DEF2C3D815700EB0763 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
