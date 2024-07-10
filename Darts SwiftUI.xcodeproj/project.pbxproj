@@ -11,6 +11,10 @@
 		0B8C99E82C3E445C0030C6A2 /* DartTargetPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C99E72C3E445C0030C6A2 /* DartTargetPalette.swift */; };
 		0B8C99EA2C3E448C0030C6A2 /* DartImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C99E92C3E448C0030C6A2 /* DartImageName.swift */; };
 		0B8C99EC2C3E45720030C6A2 /* EnviromentKVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C99EB2C3E45720030C6A2 /* EnviromentKVO.swift */; };
+		0B8C99F02C3E46680030C6A2 /* CodableColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C99EF2C3E46680030C6A2 /* CodableColor.swift */; };
+		0B8C99F22C3E47020030C6A2 /* DartSector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C99F12C3E47020030C6A2 /* DartSector.swift */; };
+		0B8C99F42C3E474F0030C6A2 /* Dart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C99F32C3E474F0030C6A2 /* Dart.swift */; };
+		0B8C99F62C3E47AD0030C6A2 /* DartTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C99F52C3E47AD0030C6A2 /* DartTarget.swift */; };
 		0B9F4DEB2C3D815600EB0763 /* Darts_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */; };
 		0B9F4DED2C3D815600EB0763 /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */; };
 		0B9F4DEF2C3D815700EB0763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEE2C3D815700EB0763 /* Assets.xcassets */; };
@@ -54,6 +58,10 @@
 		0B8C99E72C3E445C0030C6A2 /* DartTargetPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartTargetPalette.swift; sourceTree = "<group>"; };
 		0B8C99E92C3E448C0030C6A2 /* DartImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartImageName.swift; sourceTree = "<group>"; };
 		0B8C99EB2C3E45720030C6A2 /* EnviromentKVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentKVO.swift; sourceTree = "<group>"; };
+		0B8C99EF2C3E46680030C6A2 /* CodableColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableColor.swift; sourceTree = "<group>"; };
+		0B8C99F12C3E47020030C6A2 /* DartSector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartSector.swift; sourceTree = "<group>"; };
+		0B8C99F32C3E474F0030C6A2 /* Dart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dart.swift; sourceTree = "<group>"; };
+		0B8C99F52C3E47AD0030C6A2 /* DartTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartTarget.swift; sourceTree = "<group>"; };
 		0B9F4DE72C3D815600EB0763 /* Darts SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Darts SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darts_SwiftUIApp.swift; sourceTree = "<group>"; };
 		0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
@@ -121,6 +129,17 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		0B8C99EE2C3E46440030C6A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C99EF2C3E46680030C6A2 /* CodableColor.swift */,
+				0B8C99F12C3E47020030C6A2 /* DartSector.swift */,
+				0B8C99F32C3E474F0030C6A2 /* Dart.swift */,
+				0B8C99F52C3E47AD0030C6A2 /* DartTarget.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0B9F4DDE2C3D815600EB0763 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +170,7 @@
 				0B9F4E2A2C3D86DC00EB0763 /* Audio Player */,
 				0B8C99E42C3E43B30030C6A2 /* Enum */,
 				0B8C99ED2C3E45760030C6A2 /* Helper */,
+				0B8C99EE2C3E46440030C6A2 /* Model */,
 				0B9F4DEE2C3D815700EB0763 /* Assets.xcassets */,
 				0B9F4DF02C3D815700EB0763 /* Preview Content */,
 			);
@@ -350,7 +370,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B8C99F42C3E474F0030C6A2 /* Dart.swift in Sources */,
 				0B9F4E2E2C3D874000EB0763 /* SoundEnum.swift in Sources */,
+				0B8C99F22C3E47020030C6A2 /* DartSector.swift in Sources */,
 				0B9F4E302C3D879200EB0763 /* SetupSound.swift in Sources */,
 				0B9F4DED2C3D815600EB0763 /* ContentTabView.swift in Sources */,
 				0B9F4E292C3D86D200EB0763 /* Sound.swift in Sources */,
@@ -360,7 +382,9 @@
 				0B9F4E192C3D841E00EB0763 /* DartsConstants.swift in Sources */,
 				0B9F4DEB2C3D815600EB0763 /* Darts_SwiftUIApp.swift in Sources */,
 				0B8C99EC2C3E45720030C6A2 /* EnviromentKVO.swift in Sources */,
+				0B8C99F02C3E46680030C6A2 /* CodableColor.swift in Sources */,
 				0B8C99E62C3E44020030C6A2 /* Palette.swift in Sources */,
+				0B8C99F62C3E47AD0030C6A2 /* DartTarget.swift in Sources */,
 				0B9F4E2C2C3D870D00EB0763 /* SoundManager.swift in Sources */,
 				0B9F4E1B2C3D845600EB0763 /* MockData.swift in Sources */,
 			);
