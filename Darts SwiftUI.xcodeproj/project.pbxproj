@@ -38,6 +38,15 @@
 		0B8C9A3D2C3E4F580030C6A2 /* GameOverPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A3C2C3E4F580030C6A2 /* GameOverPopup.swift */; };
 		0B8C9A3F2C3E4FB60030C6A2 /* GameResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A3E2C3E4FB60030C6A2 /* GameResultView.swift */; };
 		0B8C9A412C3E4FDD0030C6A2 /* GameResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A402C3E4FDD0030C6A2 /* GameResultViewModel.swift */; };
+		0B8C9A442C3E506D0030C6A2 /* GameAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A432C3E506D0030C6A2 /* GameAnswerView.swift */; };
+		0B8C9A462C3E508F0030C6A2 /* GameStaticSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A452C3E508F0030C6A2 /* GameStaticSheet.swift */; };
+		0B8C9A492C3E51280030C6A2 /* AppSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A482C3E51280030C6A2 /* AppSetting.swift */; };
+		0B8C9A4B2C3E513F0030C6A2 /* AppSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A4A2C3E513F0030C6A2 /* AppSettingView.swift */; };
+		0B8C9A4D2C3E51710030C6A2 /* AppInterfaceSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A4C2C3E51710030C6A2 /* AppInterfaceSetting.swift */; };
+		0B8C9A4F2C3E51940030C6A2 /* AppInterfaceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A4E2C3E51940030C6A2 /* AppInterfaceSettingsView.swift */; };
+		0B8C9A512C3E51C20030C6A2 /* AppSoundSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A502C3E51C20030C6A2 /* AppSoundSettings.swift */; };
+		0B8C9A532C3E51F90030C6A2 /* AppSoundSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A522C3E51F90030C6A2 /* AppSoundSettingsView.swift */; };
+		0B8C9A552C3E524D0030C6A2 /* AppSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A542C3E524D0030C6A2 /* AppSettingsViewModel.swift */; };
 		0B9F4DEB2C3D815600EB0763 /* Darts_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */; };
 		0B9F4DED2C3D815600EB0763 /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */; };
 		0B9F4DEF2C3D815700EB0763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEE2C3D815700EB0763 /* Assets.xcassets */; };
@@ -108,6 +117,15 @@
 		0B8C9A3C2C3E4F580030C6A2 /* GameOverPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverPopup.swift; sourceTree = "<group>"; };
 		0B8C9A3E2C3E4FB60030C6A2 /* GameResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultView.swift; sourceTree = "<group>"; };
 		0B8C9A402C3E4FDD0030C6A2 /* GameResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultViewModel.swift; sourceTree = "<group>"; };
+		0B8C9A432C3E506D0030C6A2 /* GameAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAnswerView.swift; sourceTree = "<group>"; };
+		0B8C9A452C3E508F0030C6A2 /* GameStaticSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStaticSheet.swift; sourceTree = "<group>"; };
+		0B8C9A482C3E51280030C6A2 /* AppSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSetting.swift; sourceTree = "<group>"; };
+		0B8C9A4A2C3E513F0030C6A2 /* AppSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingView.swift; sourceTree = "<group>"; };
+		0B8C9A4C2C3E51710030C6A2 /* AppInterfaceSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInterfaceSetting.swift; sourceTree = "<group>"; };
+		0B8C9A4E2C3E51940030C6A2 /* AppInterfaceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInterfaceSettingsView.swift; sourceTree = "<group>"; };
+		0B8C9A502C3E51C20030C6A2 /* AppSoundSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSoundSettings.swift; sourceTree = "<group>"; };
+		0B8C9A522C3E51F90030C6A2 /* AppSoundSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSoundSettingsView.swift; sourceTree = "<group>"; };
+		0B8C9A542C3E524D0030C6A2 /* AppSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewModel.swift; sourceTree = "<group>"; };
 		0B9F4DE72C3D815600EB0763 /* Darts SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Darts SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darts_SwiftUIApp.swift; sourceTree = "<group>"; };
 		0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
@@ -219,6 +237,7 @@
 			children = (
 				0B8C9A272C3E4CC70030C6A2 /* DartHit */,
 				0B8C9A282C3E4CD80030C6A2 /* DartTarget */,
+				0B8C9A472C3E50AF0030C6A2 /* Settings */,
 				0B8C9A292C3E4CEA0030C6A2 /* DartGame */,
 				0B8C9A2A2C3E4D050030C6A2 /* GameResult */,
 			);
@@ -254,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				0B8C9A3E2C3E4FB60030C6A2 /* GameResultView.swift */,
+				0B8C9A422C3E503E0030C6A2 /* GameAnswer */,
 			);
 			path = GameResult;
 			sourceTree = "<group>";
@@ -265,6 +285,7 @@
 				0B8C9A332C3E4DC60030C6A2 /* Dart Target */,
 				0B8C9A362C3E4E620030C6A2 /* Dart Game */,
 				0B8C9A372C3E4E7E0030C6A2 /* Game Result */,
+				0B8C9A562C3E527B0030C6A2 /* Setting */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -299,6 +320,36 @@
 				0B8C9A402C3E4FDD0030C6A2 /* GameResultViewModel.swift */,
 			);
 			path = "Game Result";
+			sourceTree = "<group>";
+		};
+		0B8C9A422C3E503E0030C6A2 /* GameAnswer */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C9A432C3E506D0030C6A2 /* GameAnswerView.swift */,
+				0B8C9A452C3E508F0030C6A2 /* GameStaticSheet.swift */,
+			);
+			path = GameAnswer;
+			sourceTree = "<group>";
+		};
+		0B8C9A472C3E50AF0030C6A2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C9A482C3E51280030C6A2 /* AppSetting.swift */,
+				0B8C9A4A2C3E513F0030C6A2 /* AppSettingView.swift */,
+				0B8C9A4C2C3E51710030C6A2 /* AppInterfaceSetting.swift */,
+				0B8C9A4E2C3E51940030C6A2 /* AppInterfaceSettingsView.swift */,
+				0B8C9A502C3E51C20030C6A2 /* AppSoundSettings.swift */,
+				0B8C9A522C3E51F90030C6A2 /* AppSoundSettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0B8C9A562C3E527B0030C6A2 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C9A542C3E524D0030C6A2 /* AppSettingsViewModel.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		0B9F4DDE2C3D815600EB0763 = {
@@ -537,15 +588,18 @@
 			files = (
 				0B8C99F42C3E474F0030C6A2 /* Dart.swift in Sources */,
 				0B9F4E2E2C3D874000EB0763 /* SoundEnum.swift in Sources */,
+				0B8C9A512C3E51C20030C6A2 /* AppSoundSettings.swift in Sources */,
 				0B8C99F22C3E47020030C6A2 /* DartSector.swift in Sources */,
 				0B8C9A252C3E4C100030C6A2 /* JsonCache.swift in Sources */,
 				0B9F4E302C3D879200EB0763 /* SetupSound.swift in Sources */,
+				0B8C9A4F2C3E51940030C6A2 /* AppInterfaceSettingsView.swift in Sources */,
 				0B8C99F82C3E48D20030C6A2 /* DartGame.swift in Sources */,
 				0B9F4DED2C3D815600EB0763 /* ContentTabView.swift in Sources */,
 				0B9F4E292C3D86D200EB0763 /* Sound.swift in Sources */,
 				0B9F4E172C3D831300EB0763 /* AppConstants.swift in Sources */,
 				0B8C9A162C3E4A780030C6A2 /* CGPointExt.swift in Sources */,
 				0B8C99EA2C3E448C0030C6A2 /* DartImageName.swift in Sources */,
+				0B8C9A552C3E524D0030C6A2 /* AppSettingsViewModel.swift in Sources */,
 				0B8C99FE2C3E49360030C6A2 /* DartGameStats.swift in Sources */,
 				0B8C99E82C3E445C0030C6A2 /* DartTargetPalette.swift in Sources */,
 				0B8C9A392C3E4EF60030C6A2 /* DartGameView.swift in Sources */,
@@ -554,12 +608,16 @@
 				0B8C9A142C3E4A4E0030C6A2 /* CGFloatExt.swift in Sources */,
 				0B8C9A412C3E4FDD0030C6A2 /* GameResultViewModel.swift in Sources */,
 				0B8C9A122C3E4A2E0030C6A2 /* AngleExt.swift in Sources */,
+				0B8C9A462C3E508F0030C6A2 /* GameStaticSheet.swift in Sources */,
 				0B8C9A1C2C3E4AF70030C6A2 /* ViewExt.swift in Sources */,
 				0B8C99EC2C3E45720030C6A2 /* EnviromentKVO.swift in Sources */,
 				0B8C9A1A2C3E4ADE0030C6A2 /* IntExt.swift in Sources */,
 				0B8C9A1E2C3E4B1C0030C6A2 /* UIInt64Ext.swift in Sources */,
+				0B8C9A4D2C3E51710030C6A2 /* AppInterfaceSetting.swift in Sources */,
+				0B8C9A532C3E51F90030C6A2 /* AppSoundSettingsView.swift in Sources */,
 				0B8C99F02C3E46680030C6A2 /* CodableColor.swift in Sources */,
 				0B8C99FC2C3E49210030C6A2 /* DartGameSnapshotList.swift in Sources */,
+				0B8C9A442C3E506D0030C6A2 /* GameAnswerView.swift in Sources */,
 				0B8C9A352C3E4DFB0030C6A2 /* DartTargetViewModel.swift in Sources */,
 				0B8C9A2C2C3E4D300030C6A2 /* DartHitView.swift in Sources */,
 				0B8C9A3D2C3E4F580030C6A2 /* GameOverPopup.swift in Sources */,
@@ -574,6 +632,8 @@
 				0B8C9A322C3E4DB30030C6A2 /* DartTargetView.swift in Sources */,
 				0B8C99FA2C3E48F50030C6A2 /* DartGameSnapshot.swift in Sources */,
 				0B9F4E1B2C3D845600EB0763 /* MockData.swift in Sources */,
+				0B8C9A4B2C3E513F0030C6A2 /* AppSettingView.swift in Sources */,
+				0B8C9A492C3E51280030C6A2 /* AppSetting.swift in Sources */,
 				0B8C9A2E2C3E4D5B0030C6A2 /* DartHitViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
