@@ -52,6 +52,9 @@
 		0B8C9A5D2C3E53CA0030C6A2 /* GameTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A5C2C3E53CA0030C6A2 /* GameTimerView.swift */; };
 		0B8C9A5F2C3E53F60030C6A2 /* RotatedDartTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A5E2C3E53F60030C6A2 /* RotatedDartTargetView.swift */; };
 		0B8C9A612C3E540B0030C6A2 /* StaticUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A602C3E540B0030C6A2 /* StaticUI.swift */; };
+		0B8C9A632C3E54A90030C6A2 /* ImageToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A622C3E54A90030C6A2 /* ImageToggleStyle.swift */; };
+		0B8C9A662C3E55000030C6A2 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A652C3E55000030C6A2 /* PrimaryButtonStyle.swift */; };
+		0B8C9A682C3E55280030C6A2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 0B8C9A672C3E55280030C6A2 /* Localizable.xcstrings */; };
 		0B9F4DEB2C3D815600EB0763 /* Darts_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */; };
 		0B9F4DED2C3D815600EB0763 /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */; };
 		0B9F4DEF2C3D815700EB0763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEE2C3D815700EB0763 /* Assets.xcassets */; };
@@ -136,6 +139,9 @@
 		0B8C9A5C2C3E53CA0030C6A2 /* GameTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTimerView.swift; sourceTree = "<group>"; };
 		0B8C9A5E2C3E53F60030C6A2 /* RotatedDartTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedDartTargetView.swift; sourceTree = "<group>"; };
 		0B8C9A602C3E540B0030C6A2 /* StaticUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticUI.swift; sourceTree = "<group>"; };
+		0B8C9A622C3E54A90030C6A2 /* ImageToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToggleStyle.swift; sourceTree = "<group>"; };
+		0B8C9A652C3E55000030C6A2 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		0B8C9A672C3E55280030C6A2 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		0B9F4DE72C3D815600EB0763 /* Darts SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Darts SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darts_SwiftUIApp.swift; sourceTree = "<group>"; };
 		0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
@@ -374,12 +380,21 @@
 			path = SubView;
 			sourceTree = "<group>";
 		};
+		0B8C9A642C3E54B30030C6A2 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C9A622C3E54A90030C6A2 /* ImageToggleStyle.swift */,
+				0B8C9A652C3E55000030C6A2 /* PrimaryButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		0B9F4DDE2C3D815600EB0763 = {
 			isa = PBXGroup;
 			children = (
-				0B9F4DE92C3D815600EB0763 /* Darts SwiftUI */,
-				0B9F4DFA2C3D815800EB0763 /* Darts SwiftUITests */,
-				0B9F4E042C3D815800EB0763 /* Darts SwiftUIUITests */,
+				0B9F4DE92C3D815600EB0763 /* DartsSwiftUI */,
+				0B9F4DFA2C3D815800EB0763 /* Darts SwiftUI Tests */,
+				0B9F4E042C3D815800EB0763 /* Darts SwiftUI UITests */,
 				0B9F4DE82C3D815600EB0763 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -394,7 +409,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B9F4DE92C3D815600EB0763 /* Darts SwiftUI */ = {
+		0B9F4DE92C3D815600EB0763 /* DartsSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
 				0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */,
@@ -410,10 +425,12 @@
 				0B8C9A262C3E4CBA0030C6A2 /* View */,
 				0B8C9A2F2C3E4D690030C6A2 /* ViewModel */,
 				0B8C9A572C3E534F0030C6A2 /* SubView */,
+				0B8C9A642C3E54B30030C6A2 /* Style */,
 				0B9F4DEE2C3D815700EB0763 /* Assets.xcassets */,
+				0B8C9A672C3E55280030C6A2 /* Localizable.xcstrings */,
 				0B9F4DF02C3D815700EB0763 /* Preview Content */,
 			);
-			path = "Darts SwiftUI";
+			path = DartsSwiftUI;
 			sourceTree = "<group>";
 		};
 		0B9F4DF02C3D815700EB0763 /* Preview Content */ = {
@@ -424,21 +441,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0B9F4DFA2C3D815800EB0763 /* Darts SwiftUITests */ = {
+		0B9F4DFA2C3D815800EB0763 /* Darts SwiftUI Tests */ = {
 			isa = PBXGroup;
 			children = (
 				0B9F4DFB2C3D815800EB0763 /* Darts_SwiftUITests.swift */,
 			);
-			path = "Darts SwiftUITests";
+			path = "Darts SwiftUI Tests";
 			sourceTree = "<group>";
 		};
-		0B9F4E042C3D815800EB0763 /* Darts SwiftUIUITests */ = {
+		0B9F4E042C3D815800EB0763 /* Darts SwiftUI UITests */ = {
 			isa = PBXGroup;
 			children = (
 				0B9F4E052C3D815800EB0763 /* Darts_SwiftUIUITests.swift */,
 				0B9F4E072C3D815800EB0763 /* Darts_SwiftUIUITestsLaunchTests.swift */,
 			);
-			path = "Darts SwiftUIUITests";
+			path = "Darts SwiftUI UITests";
 			sourceTree = "<group>";
 		};
 		0B9F4E152C3D82F900EB0763 /* Constant */ = {
@@ -580,6 +597,7 @@
 			files = (
 				0B9F4E262C3D852F00EB0763 /* TimerEndSound.mp3 in Resources */,
 				0B9F4DF22C3D815700EB0763 /* Preview Assets.xcassets in Resources */,
+				0B8C9A682C3E55280030C6A2 /* Localizable.xcstrings in Resources */,
 				0B9F4E232C3D852F00EB0763 /* BadGameResultSound.mp3 in Resources */,
 				0B9F4E252C3D852F00EB0763 /* GoodGameResultSound.mp3 in Resources */,
 				0B9F4E242C3D852F00EB0763 /* DartsTargetRotation.mp3 in Resources */,
@@ -637,8 +655,10 @@
 				0B8C9A462C3E508F0030C6A2 /* GameStaticSheet.swift in Sources */,
 				0B8C9A1C2C3E4AF70030C6A2 /* ViewExt.swift in Sources */,
 				0B8C99EC2C3E45720030C6A2 /* EnviromentKVO.swift in Sources */,
+				0B8C9A662C3E55000030C6A2 /* PrimaryButtonStyle.swift in Sources */,
 				0B8C9A1A2C3E4ADE0030C6A2 /* IntExt.swift in Sources */,
 				0B8C9A612C3E540B0030C6A2 /* StaticUI.swift in Sources */,
+				0B8C9A632C3E54A90030C6A2 /* ImageToggleStyle.swift in Sources */,
 				0B8C9A1E2C3E4B1C0030C6A2 /* UIInt64Ext.swift in Sources */,
 				0B8C9A4D2C3E51710030C6A2 /* AppInterfaceSetting.swift in Sources */,
 				0B8C9A532C3E51F90030C6A2 /* AppSoundSettingsView.swift in Sources */,
@@ -751,7 +771,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -808,7 +828,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -829,11 +849,13 @@
 				DEVELOPMENT_TEAM = BC36S54BFF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -858,11 +880,13 @@
 				DEVELOPMENT_TEAM = BC36S54BFF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
