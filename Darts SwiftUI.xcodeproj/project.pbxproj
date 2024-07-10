@@ -19,6 +19,14 @@
 		0B8C99FA2C3E48F50030C6A2 /* DartGameSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C99F92C3E48F50030C6A2 /* DartGameSnapshot.swift */; };
 		0B8C99FC2C3E49210030C6A2 /* DartGameSnapshotList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C99FB2C3E49210030C6A2 /* DartGameSnapshotList.swift */; };
 		0B8C99FE2C3E49360030C6A2 /* DartGameStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C99FD2C3E49360030C6A2 /* DartGameStats.swift */; };
+		0B8C9A122C3E4A2E0030C6A2 /* AngleExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A112C3E4A2E0030C6A2 /* AngleExt.swift */; };
+		0B8C9A142C3E4A4E0030C6A2 /* CGFloatExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A132C3E4A4E0030C6A2 /* CGFloatExt.swift */; };
+		0B8C9A162C3E4A780030C6A2 /* CGPointExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A152C3E4A780030C6A2 /* CGPointExt.swift */; };
+		0B8C9A182C3E4A9A0030C6A2 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A172C3E4A9A0030C6A2 /* ColorExt.swift */; };
+		0B8C9A1A2C3E4ADE0030C6A2 /* IntExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A192C3E4ADE0030C6A2 /* IntExt.swift */; };
+		0B8C9A1C2C3E4AF70030C6A2 /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A1B2C3E4AF70030C6A2 /* ViewExt.swift */; };
+		0B8C9A1E2C3E4B1C0030C6A2 /* UIInt64Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A1D2C3E4B1C0030C6A2 /* UIInt64Ext.swift */; };
+		0B8C9A202C3E4B450030C6A2 /* DoubleExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A1F2C3E4B450030C6A2 /* DoubleExt.swift */; };
 		0B9F4DEB2C3D815600EB0763 /* Darts_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */; };
 		0B9F4DED2C3D815600EB0763 /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */; };
 		0B9F4DEF2C3D815700EB0763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEE2C3D815700EB0763 /* Assets.xcassets */; };
@@ -70,6 +78,14 @@
 		0B8C99F92C3E48F50030C6A2 /* DartGameSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartGameSnapshot.swift; sourceTree = "<group>"; };
 		0B8C99FB2C3E49210030C6A2 /* DartGameSnapshotList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartGameSnapshotList.swift; sourceTree = "<group>"; };
 		0B8C99FD2C3E49360030C6A2 /* DartGameStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartGameStats.swift; sourceTree = "<group>"; };
+		0B8C9A112C3E4A2E0030C6A2 /* AngleExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleExt.swift; sourceTree = "<group>"; };
+		0B8C9A132C3E4A4E0030C6A2 /* CGFloatExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExt.swift; sourceTree = "<group>"; };
+		0B8C9A152C3E4A780030C6A2 /* CGPointExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExt.swift; sourceTree = "<group>"; };
+		0B8C9A172C3E4A9A0030C6A2 /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
+		0B8C9A192C3E4ADE0030C6A2 /* IntExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExt.swift; sourceTree = "<group>"; };
+		0B8C9A1B2C3E4AF70030C6A2 /* ViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
+		0B8C9A1D2C3E4B1C0030C6A2 /* UIInt64Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIInt64Ext.swift; sourceTree = "<group>"; };
+		0B8C9A1F2C3E4B450030C6A2 /* DoubleExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExt.swift; sourceTree = "<group>"; };
 		0B9F4DE72C3D815600EB0763 /* Darts SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Darts SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darts_SwiftUIApp.swift; sourceTree = "<group>"; };
 		0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
@@ -152,6 +168,21 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		0B8C9A102C3E49F80030C6A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C9A112C3E4A2E0030C6A2 /* AngleExt.swift */,
+				0B8C9A132C3E4A4E0030C6A2 /* CGFloatExt.swift */,
+				0B8C9A152C3E4A780030C6A2 /* CGPointExt.swift */,
+				0B8C9A172C3E4A9A0030C6A2 /* ColorExt.swift */,
+				0B8C9A192C3E4ADE0030C6A2 /* IntExt.swift */,
+				0B8C9A1B2C3E4AF70030C6A2 /* ViewExt.swift */,
+				0B8C9A1D2C3E4B1C0030C6A2 /* UIInt64Ext.swift */,
+				0B8C9A1F2C3E4B450030C6A2 /* DoubleExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		0B9F4DDE2C3D815600EB0763 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +214,7 @@
 				0B8C99E42C3E43B30030C6A2 /* Enum */,
 				0B8C99ED2C3E45760030C6A2 /* Helper */,
 				0B8C99EE2C3E46440030C6A2 /* Model */,
+				0B8C9A102C3E49F80030C6A2 /* Extensions */,
 				0B9F4DEE2C3D815700EB0763 /* Assets.xcassets */,
 				0B9F4DF02C3D815700EB0763 /* Preview Content */,
 			);
@@ -390,16 +422,24 @@
 				0B9F4DED2C3D815600EB0763 /* ContentTabView.swift in Sources */,
 				0B9F4E292C3D86D200EB0763 /* Sound.swift in Sources */,
 				0B9F4E172C3D831300EB0763 /* AppConstants.swift in Sources */,
+				0B8C9A162C3E4A780030C6A2 /* CGPointExt.swift in Sources */,
 				0B8C99EA2C3E448C0030C6A2 /* DartImageName.swift in Sources */,
 				0B8C99FE2C3E49360030C6A2 /* DartGameStats.swift in Sources */,
 				0B8C99E82C3E445C0030C6A2 /* DartTargetPalette.swift in Sources */,
 				0B9F4E192C3D841E00EB0763 /* DartsConstants.swift in Sources */,
 				0B9F4DEB2C3D815600EB0763 /* Darts_SwiftUIApp.swift in Sources */,
+				0B8C9A142C3E4A4E0030C6A2 /* CGFloatExt.swift in Sources */,
+				0B8C9A122C3E4A2E0030C6A2 /* AngleExt.swift in Sources */,
+				0B8C9A1C2C3E4AF70030C6A2 /* ViewExt.swift in Sources */,
 				0B8C99EC2C3E45720030C6A2 /* EnviromentKVO.swift in Sources */,
+				0B8C9A1A2C3E4ADE0030C6A2 /* IntExt.swift in Sources */,
+				0B8C9A1E2C3E4B1C0030C6A2 /* UIInt64Ext.swift in Sources */,
 				0B8C99F02C3E46680030C6A2 /* CodableColor.swift in Sources */,
 				0B8C99FC2C3E49210030C6A2 /* DartGameSnapshotList.swift in Sources */,
+				0B8C9A202C3E4B450030C6A2 /* DoubleExt.swift in Sources */,
 				0B8C99E62C3E44020030C6A2 /* Palette.swift in Sources */,
 				0B8C99F62C3E47AD0030C6A2 /* DartTarget.swift in Sources */,
+				0B8C9A182C3E4A9A0030C6A2 /* ColorExt.swift in Sources */,
 				0B9F4E2C2C3D870D00EB0763 /* SoundManager.swift in Sources */,
 				0B8C99FA2C3E48F50030C6A2 /* DartGameSnapshot.swift in Sources */,
 				0B9F4E1B2C3D845600EB0763 /* MockData.swift in Sources */,
