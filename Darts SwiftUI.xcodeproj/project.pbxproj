@@ -29,6 +29,10 @@
 		0B8C9A202C3E4B450030C6A2 /* DoubleExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A1F2C3E4B450030C6A2 /* DoubleExt.swift */; };
 		0B8C9A232C3E4BED0030C6A2 /* DataCacheError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A222C3E4BED0030C6A2 /* DataCacheError.swift */; };
 		0B8C9A252C3E4C100030C6A2 /* JsonCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A242C3E4C100030C6A2 /* JsonCache.swift */; };
+		0B8C9A2C2C3E4D300030C6A2 /* DartHitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A2B2C3E4D300030C6A2 /* DartHitView.swift */; };
+		0B8C9A2E2C3E4D5B0030C6A2 /* DartHitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A2D2C3E4D5B0030C6A2 /* DartHitViewModel.swift */; };
+		0B8C9A322C3E4DB30030C6A2 /* DartTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A312C3E4DB30030C6A2 /* DartTargetView.swift */; };
+		0B8C9A352C3E4DFB0030C6A2 /* DartTargetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A342C3E4DFB0030C6A2 /* DartTargetViewModel.swift */; };
 		0B9F4DEB2C3D815600EB0763 /* Darts_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */; };
 		0B9F4DED2C3D815600EB0763 /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */; };
 		0B9F4DEF2C3D815700EB0763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEE2C3D815700EB0763 /* Assets.xcassets */; };
@@ -90,6 +94,10 @@
 		0B8C9A1F2C3E4B450030C6A2 /* DoubleExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExt.swift; sourceTree = "<group>"; };
 		0B8C9A222C3E4BED0030C6A2 /* DataCacheError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCacheError.swift; sourceTree = "<group>"; };
 		0B8C9A242C3E4C100030C6A2 /* JsonCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonCache.swift; sourceTree = "<group>"; };
+		0B8C9A2B2C3E4D300030C6A2 /* DartHitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartHitView.swift; sourceTree = "<group>"; };
+		0B8C9A2D2C3E4D5B0030C6A2 /* DartHitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartHitViewModel.swift; sourceTree = "<group>"; };
+		0B8C9A312C3E4DB30030C6A2 /* DartTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartTargetView.swift; sourceTree = "<group>"; };
+		0B8C9A342C3E4DFB0030C6A2 /* DartTargetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartTargetViewModel.swift; sourceTree = "<group>"; };
 		0B9F4DE72C3D815600EB0763 /* Darts SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Darts SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darts_SwiftUIApp.swift; sourceTree = "<group>"; };
 		0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
@@ -196,6 +204,72 @@
 			path = Cache;
 			sourceTree = "<group>";
 		};
+		0B8C9A262C3E4CBA0030C6A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C9A272C3E4CC70030C6A2 /* DartHit */,
+				0B8C9A282C3E4CD80030C6A2 /* DartTarget */,
+				0B8C9A292C3E4CEA0030C6A2 /* DartGame */,
+				0B8C9A2A2C3E4D050030C6A2 /* GameResult */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B8C9A272C3E4CC70030C6A2 /* DartHit */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C9A2B2C3E4D300030C6A2 /* DartHitView.swift */,
+			);
+			path = DartHit;
+			sourceTree = "<group>";
+		};
+		0B8C9A282C3E4CD80030C6A2 /* DartTarget */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C9A312C3E4DB30030C6A2 /* DartTargetView.swift */,
+			);
+			path = DartTarget;
+			sourceTree = "<group>";
+		};
+		0B8C9A292C3E4CEA0030C6A2 /* DartGame */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DartGame;
+			sourceTree = "<group>";
+		};
+		0B8C9A2A2C3E4D050030C6A2 /* GameResult */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GameResult;
+			sourceTree = "<group>";
+		};
+		0B8C9A2F2C3E4D690030C6A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C9A302C3E4D7D0030C6A2 /* Dart Hit */,
+				0B8C9A332C3E4DC60030C6A2 /* Dart Target */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0B8C9A302C3E4D7D0030C6A2 /* Dart Hit */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C9A2D2C3E4D5B0030C6A2 /* DartHitViewModel.swift */,
+			);
+			path = "Dart Hit";
+			sourceTree = "<group>";
+		};
+		0B8C9A332C3E4DC60030C6A2 /* Dart Target */ = {
+			isa = PBXGroup;
+			children = (
+				0B8C9A342C3E4DFB0030C6A2 /* DartTargetViewModel.swift */,
+			);
+			path = "Dart Target";
+			sourceTree = "<group>";
+		};
 		0B9F4DDE2C3D815600EB0763 = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +303,8 @@
 				0B8C99EE2C3E46440030C6A2 /* Model */,
 				0B8C9A102C3E49F80030C6A2 /* Extensions */,
 				0B8C9A212C3E4BCD0030C6A2 /* Cache */,
+				0B8C9A262C3E4CBA0030C6A2 /* View */,
+				0B8C9A2F2C3E4D690030C6A2 /* ViewModel */,
 				0B9F4DEE2C3D815700EB0763 /* Assets.xcassets */,
 				0B9F4DF02C3D815700EB0763 /* Preview Content */,
 			);
@@ -451,14 +527,18 @@
 				0B8C9A1E2C3E4B1C0030C6A2 /* UIInt64Ext.swift in Sources */,
 				0B8C99F02C3E46680030C6A2 /* CodableColor.swift in Sources */,
 				0B8C99FC2C3E49210030C6A2 /* DartGameSnapshotList.swift in Sources */,
+				0B8C9A352C3E4DFB0030C6A2 /* DartTargetViewModel.swift in Sources */,
+				0B8C9A2C2C3E4D300030C6A2 /* DartHitView.swift in Sources */,
 				0B8C9A202C3E4B450030C6A2 /* DoubleExt.swift in Sources */,
 				0B8C99E62C3E44020030C6A2 /* Palette.swift in Sources */,
 				0B8C99F62C3E47AD0030C6A2 /* DartTarget.swift in Sources */,
 				0B8C9A232C3E4BED0030C6A2 /* DataCacheError.swift in Sources */,
 				0B8C9A182C3E4A9A0030C6A2 /* ColorExt.swift in Sources */,
 				0B9F4E2C2C3D870D00EB0763 /* SoundManager.swift in Sources */,
+				0B8C9A322C3E4DB30030C6A2 /* DartTargetView.swift in Sources */,
 				0B8C99FA2C3E48F50030C6A2 /* DartGameSnapshot.swift in Sources */,
 				0B9F4E1B2C3D845600EB0763 /* MockData.swift in Sources */,
+				0B8C9A2E2C3E4D5B0030C6A2 /* DartHitViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
