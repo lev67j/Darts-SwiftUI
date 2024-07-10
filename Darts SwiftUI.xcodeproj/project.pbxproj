@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -55,6 +55,8 @@
 		0B8C9A632C3E54A90030C6A2 /* ImageToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A622C3E54A90030C6A2 /* ImageToggleStyle.swift */; };
 		0B8C9A662C3E55000030C6A2 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A652C3E55000030C6A2 /* PrimaryButtonStyle.swift */; };
 		0B8C9A682C3E55280030C6A2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 0B8C9A672C3E55280030C6A2 /* Localizable.xcstrings */; };
+		0B8C9A6E2C3E74250030C6A2 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C9A6D2C3E74250030C6A2 /* Package.swift */; };
+		0B8C9A712C3E74390030C6A2 /* SwiftUIComponents4iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 0B8C9A702C3E74390030C6A2 /* SwiftUIComponents4iOS */; };
 		0B9F4DEB2C3D815600EB0763 /* Darts_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */; };
 		0B9F4DED2C3D815600EB0763 /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */; };
 		0B9F4DEF2C3D815700EB0763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9F4DEE2C3D815700EB0763 /* Assets.xcassets */; };
@@ -142,6 +144,7 @@
 		0B8C9A622C3E54A90030C6A2 /* ImageToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToggleStyle.swift; sourceTree = "<group>"; };
 		0B8C9A652C3E55000030C6A2 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		0B8C9A672C3E55280030C6A2 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		0B8C9A6D2C3E74250030C6A2 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		0B9F4DE72C3D815600EB0763 /* Darts SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Darts SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9F4DEA2C3D815600EB0763 /* Darts_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darts_SwiftUIApp.swift; sourceTree = "<group>"; };
 		0B9F4DEC2C3D815600EB0763 /* ContentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
@@ -171,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B8C9A712C3E74390030C6A2 /* SwiftUIComponents4iOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +456,7 @@
 		0B9F4E042C3D815800EB0763 /* Darts SwiftUI UITests */ = {
 			isa = PBXGroup;
 			children = (
+				0B8C9A6D2C3E74250030C6A2 /* Package.swift */,
 				0B9F4E052C3D815800EB0763 /* Darts_SwiftUIUITests.swift */,
 				0B9F4E072C3D815800EB0763 /* Darts_SwiftUIUITestsLaunchTests.swift */,
 			);
@@ -507,6 +512,9 @@
 			dependencies = (
 			);
 			name = "Darts SwiftUI";
+			packageProductDependencies = (
+				0B8C9A702C3E74390030C6A2 /* SwiftUIComponents4iOS */,
+			);
 			productName = "Darts SwiftUI";
 			productReference = 0B9F4DE72C3D815600EB0763 /* Darts SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -579,6 +587,9 @@
 				Base,
 			);
 			mainGroup = 0B9F4DDE2C3D815600EB0763;
+			packageReferences = (
+				0B8C9A6F2C3E74390030C6A2 /* XCLocalSwiftPackageReference "../../../Library/Developer/Xcode/DerivedData/DartsScore-fityixfwuvgafifbvzezkjqakjsq/SourcePackages/checkouts/ios-swiftui-components" */,
+			);
 			productRefGroup = 0B9F4DE82C3D815600EB0763 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -669,6 +680,7 @@
 				0B8C9A352C3E4DFB0030C6A2 /* DartTargetViewModel.swift in Sources */,
 				0B8C9A2C2C3E4D300030C6A2 /* DartHitView.swift in Sources */,
 				0B8C9A3D2C3E4F580030C6A2 /* GameOverPopup.swift in Sources */,
+				0B8C9A6E2C3E74250030C6A2 /* Package.swift in Sources */,
 				0B8C9A202C3E4B450030C6A2 /* DoubleExt.swift in Sources */,
 				0B8C99E62C3E44020030C6A2 /* Palette.swift in Sources */,
 				0B8C99F62C3E47AD0030C6A2 /* DartTarget.swift in Sources */,
@@ -850,11 +862,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = Darts;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -881,11 +894,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = Darts;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1016,6 +1030,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0B8C9A6F2C3E74390030C6A2 /* XCLocalSwiftPackageReference "../../../Library/Developer/Xcode/DerivedData/DartsScore-fityixfwuvgafifbvzezkjqakjsq/SourcePackages/checkouts/ios-swiftui-components" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Library/Developer/Xcode/DerivedData/DartsScore-fityixfwuvgafifbvzezkjqakjsq/SourcePackages/checkouts/ios-swiftui-components";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B8C9A702C3E74390030C6A2 /* SwiftUIComponents4iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIComponents4iOS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B9F4DDF2C3D815600EB0763 /* Project object */;
 }
