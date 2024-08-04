@@ -9,7 +9,7 @@ import SwiftUI
 
 /// Checking that the screen is being displayed on Preview or on the simulator/device.
 var isPreview: Bool {
-    return ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1"
+    //return ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1"
 }
 
 final class AppConstants: ObservableObject {
